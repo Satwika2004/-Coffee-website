@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+   <link rel ="stylesheet" href=" https://fonts.googleapis.com/css?family=Rancho|scrptify&effect=shadow-multiple">
+   <style>
+
+   
+    
+   
+        body{
+            background-color: black;
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            font-size: 60px;
+            text-transform: uppercase;
+            font-family:rancho;
+            color:cadetblue;
+            text-align: center;
+
+        }
+        .container{
+           flex-direction:row;
+           display:flex;
+           flex-wrap: wrap;
+           width: 100%;
+        }
+        .gallery img{
+            width:300px;
+            height: 247px;
+            object-fit: fill;
+        }
+        .gallery img:hover{
+            width: 500px;
+            height: 400px;
+            transition-property: width,height;
+           transition-duration: 5s;
+           transition-delay: 2s;
+           transition-timing-function: linear;
+           opacity:1;
+        }
+        .gallery{   
+           border: 2px inset black;
+          margin:10px 15px  10px  50px;
+          box-shadow:1px 2px 5px 6px white;
+        }    
+        .desc{
+             padding:2px 3px 5px 3px;
+              text-align: center;
+        }
+        h3,p{
+            color:aliceblue;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            text-transform: uppercase;    
+        }
+        h3:hover{
+            color:black;
+            background-color: burlywood;
+            transform: rotate(360deg);
+            transition-property: transform,;
+            transition-timing-function:ease ;
+            transition-duration: 5s;
+        }
+        p:hover{
+            color:black;
+            background-color: bisque;
+            transform: rotate(260deg);
+            transition-property: transform,;
+            transition-timing-function:ease ;
+            transition-duration: 5s;
+        }
+        button{
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        button:hover{
+            background-color: burlywood;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+        <h1 class="font-effect-shadow-multiple">products</h1>
+        <div class="container">
+        <div class="gallery">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.zv07lmjM8Mon4HTv1nGsFgHaE8&pid=Api&P=0&h=180" alt="espresso"  > 
+        <div class="desc">
+            <h3>espresso</h3>
+            <p>cost:$1.50</p>
+            <button type="button">add to cart</button>
+        </div>
+        </div>
+        <div class="gallery">
+            <img src="https://indainmenuprice.in/wp-content/uploads/2023/05/Beverages-Blends-Single-origin-300x247.png" alt="french press"  > 
+          <div class="desc">
+            <h3>french press</h3>
+            <p>cost:$3.50</p>
+            <button type="button">add to cart</button>
+          </div>
+        </div>
+        <div class="gallery">
+                <img src="https://foodyoushouldtry.com/wp-content/uploads/2021/07/coffee.jpg" alt="americano"  > 
+            <div class="desc">
+                <h3>americano</h3>
+                <p>cost:$2.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.MWDDjyehcfRvxUWMma90tAHaE8&pid=Api&rs=1&c=1&qlt=95&w=159&h=106" alt="cappuccino"  > 
+            <div class="desc">
+                <h3>cappuccino</h3>
+                <p>cost:$2.00</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.iuXuV3I1W9x3H6EVzOa8XwHaHa&pid=Api&P=0&h=180" alt="double expresso"  > 
+            <div class="desc">
+                <h3>double expresso </h3>
+                <p>cost:$1.00</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.L1fcF6zleqFGHcxuAiSnogHaHa&pid=Api&P=0&h=180" alt="white mocha"  > 
+            <div class="desc">
+                <h3>white mocha </h3>
+                <p>cost:$3.00</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/f6/78/3b/f6783bf27d3c67de3896270fc32122d1.jpg" alt="mint chocolate"  > 
+            <div class="desc">
+                <h3>mint chocolate </h3>
+                <p>cost:$1.20</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/originals/76/8b/aa/768baa302c5195ddedfa35ff5ccb7fa0.jpg" alt="mocha"  > 
+            <div class="desc">
+                <h3>mocha </h3>
+                <p>cost:$1.57</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.9yhOxZTu0Ey8Z8jarQijDwHaLH&pid=Api&P=0&h=180" alt="latte"  > 
+            <div class="desc">
+                <h3>latte</h3>
+                <p>cost:$1.00</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://thumbs.dreamstime.com/b/coffee-latte-macchiato-full-glass-cup-delicious-spoon-cookie-white-table-99752898.jpg" alt="macchiato"  > 
+            <div class="desc">
+                <h3>macchiato</h3>
+                <p>cost:$2.70</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.wQVIF1psuNwFhQheGLOvigHaLH&pid=Api&P=0&h=180" alt="cararnel"  > 
+            <div class="desc">
+                <h3>cararnel</h3>
+                <p>cost:$1.90</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.1yplk2aPQOOQ7Wnzt6jYVQHaHa&pid=Api&P=0&h=180" alt="cortado"  > 
+            <div class="desc">
+                <h3>cortado</h3>
+                <p>cost:$2.90</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.ZiVeNGpbxs4or9xOMZgYVgHaHa&pid=Api&P=0&h=180" alt="coffee jelly"  > 
+            <div class="desc">
+                <h3>coffee jelly</h3>
+                <p>cost:$2.90</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.o43MtFA-Aosjd24XHnwLkAHaE8&pid=Api&P=0&h=180" alt="matcha cream"  > 
+            <div class="desc">
+                <h3>matcha cream</h3>
+                <p>cost:$0.90</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.I1ylGILHq17o7mh5TRBrAwHaHa&pid=Api&P=0&h=180" alt="strawberry cream"  > 
+            <div class="desc">
+                <h3>strawberry cream</h3>
+                <p>cost:$2.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Qij1SGFsKJ5EpoOGkZjXGgHaLH&pid=Api&P=0&h=180" alt="vanilla bean"  > 
+            <div class="desc">
+                <h3>vanilla bean</h3>
+                <p>cost:$1.00</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.f-rxs_1OZ3f1OTra3Vm6RwHaHa&pid=Api&P=0&h=180" alt="hazelnut mocha"  > 
+            <div class="desc">
+                <h3>hazelnut mocha</h3>
+                <p>cost:$2.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://cdn.shopify.com/s/files/1/1170/4834/products/mint_chocolate_cupcake_2048x@2x.jpg?v=1522619442" alt="mint chocolate chip"  > 
+            <div class="desc">
+                <h3>mint chocolate chip</h3>
+                <p>cost:$1.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.YJjhAsMPWRWaqwrwf8gr0QHaDt&pid=Api&P=0&h=180" alt="cookies and cream"  > 
+            <div class="desc">
+                <h3>cookies and cream</h3>
+                <p>cost:$3.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.i2ZYY8M8sLaA2RwIPzjwzwHaE8&pid=Api&P=0&h=180" alt="black coffee"  > 
+            <div class="desc">
+                <h3>black coffee</h3>
+                <p>cost:$0.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="http://yesofcorsa.com/wp-content/uploads/2020/04/By-Viennese-Coffee-Aircraft-Picture.jpg" alt="vienna coffee"  > 
+            <div class="desc">
+                <h3>vienna coffee</h3>
+                <p>cost:$3.50</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.eOvCDQmrBU5jam1OyaKoygHaHa&pid=Api&P=0&h=180" alt="virish coffee"  > 
+            <div class="desc">
+                <h3>irish coffee</h3>
+                <p>cost:$3.70</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+        <img src="https://thumbs.dreamstime.com/b/cup-hot-coffee-latte-beverages-donut-glazed-cup-hot-coffee-latte-beverages-donut-glazed-breakfast-early-morning-116125754.jpg" alt="glaze"  > 
+            <div class="desc">
+                <h3> glaze</h3>
+                <p>cost:$0.70</p>
+                <button type="button">add to cart</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.KWaYlz1dXeIgwc26vQoQPwHaE6&pid=Api&P=0&h=180" alt="green tea"  > 
+                <div class="desc">
+                    <h3> green tea</h3>
+                    <p>cost:$0.40</p>
+                    <button type="button">add to cart</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.QQQB9DOgADDYcvKFMfIMogAAAA&pid=Api&P=0&h=180" alt="black tea"  > 
+                    <div class="desc">
+                        <h3> black tea</h3>
+                        <p>cost:$0.50</p>
+                        <button type="button">add to cart</button>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.8HPVNhrfz1Y-hVBokGwUiQHaEK&pid=Api&P=0&h=180" alt="matcha tea"  > 
+                        <div class="desc">
+                            <h3>matcha tea</h3>
+                            <p>cost:$0.90</p>
+                            <button type="button">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.31N9AhDi5US0CeMg8rokoAHaE7&pid=Api&P=0&h=180" alt="oolong tea"  > 
+                            <div class="desc">
+                                <h3>oolong tea</h3>
+                                <p>cost:$1.50</p>
+                                <button type="button">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.Ggxw8nlsM_s-BAMyzVC3iwHaE8&pid=Api&P=0&h=180" alt=" tea"  > 
+                                <div class="desc">
+                                    <h3> tea</h3>
+                                    <p>cost:$0.10</p>
+                                    <button type="button">add to cart</button>
+                                </div>
+                            </div>
+         
+    </div>
+</body>
+</html>
